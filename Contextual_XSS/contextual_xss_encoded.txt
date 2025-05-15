@@ -1,0 +1,8 @@
+%3Cscript%3Ealert%281%29%3C/script%3E
+&lt;script&gt;alert(1)&lt;/script&gt;
+%22%3E%3Cscript%3Ealert%281%29%3C/script%3E
+&quot;&gt;&lt;script&gt;alert(1)&lt;/script&gt;
+%27%3Balert%281%29//
+&#x27;;alert(1)//
+%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E
+&lt;img src=x onerror=alert(1)&gt;
