@@ -21,7 +21,12 @@ XSpire Pro is an advanced XSS vulnerability scanner with support for WebSocket t
   Detailed HTML reports
 
 ---
+##التثبت | Verification 
+```bash
 
+git clone https://github.com/HN1A/XSpire_Pro.git
+pip install-r Requirements.txt
+python XSpire_Pro.py --help 
 ## المتطلبات | Requirements
 
 قم بتثبيت المكتبات التالية:  
