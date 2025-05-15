@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+rich
+fake-useragent
+PySocks
+stem
+websocket-client
