@@ -1,0 +1,6 @@
+%3Csvg%3E%3Cdesc%3E%3C%21%5BCDATA%5B%3C/desc%3E%3Cscript%3Ealert%281%29%3C/script%3E%5D%5D%3E%3C/svg%3E
+&lt;svg&gt;&lt;desc&gt;&lt;![CDATA[&lt;/desc&gt;&lt;script&gt;alert(1)&lt;/script&gt;]]&gt;&lt;/svg&gt;
+%3Cscript%3E%3Cscript%3Ealert%281%29//%3C/script%3E%3C/script%3E
+&lt;script&gt;&lt;script&gt;alert(1)//&lt;/script&gt;&lt;/script&gt;
+%3Cdiv%3E%3Cmath%3E%3Cmi%20xlink%3Ahref%3D%27data%3Ax%2C%3Cscript%3Ealert%281%29%3C/script%3E%27/%3E%3C/math%3E%3C/div%3E
+&lt;div&gt;&lt;math&gt;&lt;mi xlink:href=&#x27;data:x,&lt;script&gt;alert(1)&lt;/script&gt;&#x27;/&gt;&lt;/math&gt;&lt;/div&gt;
